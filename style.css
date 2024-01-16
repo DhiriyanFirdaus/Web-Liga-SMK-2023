@@ -1,0 +1,52 @@
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-right: 250px ;
+}
+.link li , .link a{
+    display: inline ;
+    text-decoration: none;
+    color: black;
+}
+.link a:hover, .link select:hover{
+    color: blue;
+}
+
+.link li select{  
+    border: none; 
+    margin-right: 20px;
+}
+.persuasion button{
+    padding-left: 20px;
+    text-align: left;
+    font-size:11px;
+    font-weight: 500;
+    width: 175px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
+.role{
+    padding-right:150px;
+}
+.role button{
+    font-size: 13px;
+    border: none;
+    background-color: white;
+    color: gray;
+}
+.card p{
+    font-size: bold;
+}
+footer{
+    background-color: rgb(2, 3, 39);
+    width: 100%;
+    height: 50vh;
+}
+
+
+
